@@ -8,7 +8,6 @@ export function ContactSection() {
   return (
     <section id="contact" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <span className="text-secondary font-medium text-sm uppercase tracking-wider">
             צור קשר
@@ -23,7 +22,6 @@ export function ContactSection() {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Phone Card */}
             <Card className="border-border/50 hover:border-primary/50 transition-colors">
               <CardContent className="p-6 md:p-8">
                 <div className="flex items-start gap-4">
@@ -48,7 +46,6 @@ export function ContactSection() {
               </CardContent>
             </Card>
 
-            {/* WhatsApp Card */}
             <Card className="border-border/50 hover:border-green-500/50 transition-colors">
               <CardContent className="p-6 md:p-8">
                 <div className="flex items-start gap-4">

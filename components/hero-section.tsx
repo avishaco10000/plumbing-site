@@ -22,36 +22,30 @@ export function HeroSection() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance">
             הצפה בבית?
             <br />
-            <span className="text-primary">ד.ש אינסטלציה</span> בדרך אליכם.
+            <span className="text-primary">ד.ש אינסטלציה</span> בדרך אליכם!
           </h1>
 
-          {/* Subheadline */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed text-pretty">
-            תיקון נזילות, סתימות ותקלות דחופות 24/6 (לא בשבת).
-            <br />
-            שירות מקצועי, אמין ומהיר באזור המרכז.
+          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto text-balance">
+            מומחים בכל סוגי עבודות האינסטלציה, איתור נזילות ופתיחת סתימות. 
+            שירות מקצועי, אמין ומהיר.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button
-              asChild
-              size="lg"
-              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground gap-2 text-lg px-8 py-6 w-full sm:w-auto"
-            >
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+            <Button size="lg" asChild className="gap-2 text-lg px-8 py-6 w-full sm:w-auto shadow-lg shadow-primary/20">
               <a href="tel:0534980979">
                 <Phone className="w-5 h-5" />
-                <span>חיוג מהיר</span>
+                <span>התקשרו עכשיו</span>
               </a>
             </Button>
-            <Button
+            <Button 
+              variant="outline" 
+              size="lg" 
               asChild
-              size="lg"
-              variant="outline"
               className="gap-2 text-lg px-8 py-6 w-full sm:w-auto border-primary/20 hover:bg-primary/5"
             >
-              <a href="#contact">
-                <span>השאירו פרטים</span>
+              <a href="https://wa.me/972534980979">
+                <span>דברו איתנו בוואטסאפ</span>
               </a>
             </Button>
           </div>
@@ -79,7 +73,7 @@ export function HeroSection() {
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 bg-primary/50 rounded-full" />
+          <div className="w-1 h-2 bg-primary/30 rounded-full" />
         </div>
       </div>
     </section>
